@@ -1,0 +1,122 @@
+
+#name {
+	font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration: underline #aeaaa9; 
+    color: #aeaaa9;
+    text-align: center;
+    font-size: 35px;
+	background-color: #222a35;  
+	border: 3px solid #000000; 
+    padding: 10px;
+}
+
+#mail {
+    color: #ffe084;
+    text-align: right; 
+    font-size: 25px;
+    text-decoration-line: underline;
+    text-decoration-color: #ffe084;
+    margin-top: -25px;
+}
+
+#chenar1 {
+	border: 3px solid #9974bb;
+	background-color: #d6dce5;
+    padding: 0px 10px;
+    margin: -10px; 
+}
+
+#chenar2 {
+	border: 3px solid #5c778a;
+	background-color: #5c778a;
+    padding: 0px 10px;
+    margin: -10px; 
+}
+
+#imagine1 , #imagine2 , #imagine3{
+	height: 300px;
+	text-align: center;
+	margin-top: 20px;
+	margin: 0 10px;
+}
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+    text-decoration-line: underline;
+    text-decoration-color: #7a30a0;
+    color: #7a30a0;
+    text-align: left;
+    font-size: 30px;
+}
+
+#retea{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#spec {
+    text-align: right; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+    padding: 10px
+}
+
+.pointer {
+  display: inline-block;
+    width: 10px; 
+    height: 10px;
+    background-color: #000; 
+    border-radius: 50%; 
+    margin-right: 25px;
+}
+
+.tabel {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+
+.tabel th, .tabel td {
+    border: 3px solid #ecad82; 
+    padding: 8px;
+	background-color: #a6a6a6;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+	font-style: italic;
+	color: #e3e335;
+}
+
+.body {
+    margin-left: 100px; 
+    margin-right: 100px; 
+    margin-top: 200px;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  margin: auto;
+}
+
+
+.slideshow {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
